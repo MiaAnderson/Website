@@ -1,19 +1,48 @@
+/* this is my style sheet */
+*{
+  font-size: 100%;
+  }
+
+
 body {
   background-color: LightCyan;
   color: DarkSlateGrey;
   font-family: Verdana;
   font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  }
 
+p {
+  line-height: 4;
   }
 
 h1 {
   color: MediumOrchid;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: left;
+  }
+
+header h1 {
+  text-align: centre;
   }
 
 h2 {
   color: Pink;
+  font-size: 22px;
+  font-style: italic;
   }
 
 h3 {
   color:LightGreen;
+  font-size: 18px;
   }
+
+a {
+  color:LightGreen;
+  text-decoration: none;
+  }
+
+a:hover {
+  text-decoration: underline;
+}
