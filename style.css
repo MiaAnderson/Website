@@ -1,12 +1,11 @@
 /* this is my style sheet */
 *{
   font-size: 100%;
-  margin: 0;
+  margin: 4;
   line-height: 1;
   box-sizng: border-box;
   /* border: 1px solid red; */
   }
-
 
 body {
   background-color: LightCyan;
@@ -14,6 +13,7 @@ body {
   font-family: Verdana;
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
+  background-image: url(images2/watercolor/watercolor.png)
   }
 
 header,
@@ -79,3 +79,9 @@ a:hover {
 img {
   height: 300px;
   }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
